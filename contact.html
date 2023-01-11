@@ -7,11 +7,11 @@
     <title>sollo</title>
     <link rel="stylesheet" href="dist/output.css">
 </head>
-<body class="bg-[url('image/bg.jpg')] h-screen bg-no-repeat bg-cover font-spacemono">
+<body class="bg-[url('image/bg.jpg')] bg-black h-screen bg-no-repeat bg-cover font-spacemono">
     <!-- header starts here -->
     <header>
         <nav
-          class="container mx-auto pt-10 px-20 gap-2 text-orange-600 text-md md:text-2xl cursor-pointer tracking-widest font-bold uppercase flex justify-around"
+          class="container mx-auto pt-10 px-20 gap-1 text-orange-600 text-md md:text-2xl cursor-pointer tracking-widest font-bold uppercase flex justify-around"
         >
           <span class="animate-bounce-slow"
             ><a class="hover:text-white" href="index.html">#Home</a></span
@@ -32,7 +32,7 @@
     <!-- header ended here -->
 
     <!-- contact form starts here -->
-    <form class="container mx-auto space-y-5 max-w-xs mt-[50%] md:mt-[15%] md:max-w-md">
+    <form class="container mx-auto max-w-xs mt-[50%] md:mt-[15%] md:max-w-md">
       <div class="">
         <input
           class="focus:outline-none px-5 w-full bg-orange-100 font-bold py-2 rounded"
@@ -41,22 +41,29 @@
           required
         />
       </div>
-      <div class="">
+      <div class="mt-5">
         <input
-          class="focus:outline-none px-5 w-full bg-orange-100 font-bold py-2 rounded"
+          class="focus:outline-none px-5 w-full bg-orange-100 font-bold py-2 rounded-tl rounded-tr rounded-bl"
           type="email"
           placeholder="Enter your Email"
           required
         />
       </div>
-      <div class="">
+      <div class="text-right">
         <input
-          class="focus:outline-none cursor-pointer bg-orange-600 px-5 py-1 uppercase rounded-b-md text-white font-bold tracking-widest"
+          class="focus:outline-none cursor-pointer bg-orange-600 hover:bg-orange-700 px-5 py-1 uppercase rounded-b-md text-white font-bold tracking-widest"
           type="submit"
         />
       </div>
-  </form>
+    </form>
     <!-- contact form ends here -->
+
+
+    <!-- footer starts here -->
+    <footer class="text-orange-800 flex justify-center mt-[100%] text-[0.8em] py-5">
+      <span class="">sollo&copy; 2023 all right reserved</span>
+    </footer>
+    <!-- footer ended here -->
 
 </body>
 </html>
