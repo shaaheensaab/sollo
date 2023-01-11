@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sollo</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="bg-[url('/asset/bg.jpg')] h-screen bg-no-repeat bg-cover font-spacemono">
+
+    <!-- header starts here -->
+    <header>
+        <nav
+          class="container mx-auto pt-10 px-20 gap-2 text-orange-600 text-md md:text-2xl cursor-pointer tracking-widest font-bold uppercase flex justify-around"
+        >
+          <span class="animate-bounce-slow"
+            ><a class="hover:text-white" href="index.html">#Home</a></span
+          >
+          <span class="animate-bounce-slower"
+            ><a class="hover:text-white" href="about.html">#About</a></span
+          >
+          <span class="animate-bounce-slowest"
+            ><a class="hover:text-white" href="contact.html">#Contact</a></span
+          >
+          <span class="animate-bounce-slowests"
+            ><a class="hover:text-white" href="portfolio.html"
+              >#Portfolio</a
+            ></span
+          >
+        </nav>
+    </header>
+    <!-- header ended here -->
+
+    <!-- contact form starts here -->
+    <form class="container mx-auto space-y-5 max-w-xs mt-[50%] md:mt-[15%] md:max-w-md">
+        <div class="">
+          <input
+            class="focus:outline-none px-5 w-full bg-orange-100 font-bold py-2 rounded"
+            type="text"
+            placeholder="Enter your Name"
+            required
+          />
+        </div>
+        <div class="">
+          <input
+            class="focus:outline-none px-5 w-full bg-orange-100 font-bold py-2 rounded"
+            type="email"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="">
+          <input
+            class="focus:outline-none cursor-pointer bg-orange-600 px-5 py-1 uppercase rounded-b-md text-white font-bold tracking-widest"
+            type="submit"
+          />
+        </div>
+    </form>
+    <!-- contact form ends here -->
+
+</body>
+</html>
